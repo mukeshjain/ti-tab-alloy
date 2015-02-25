@@ -1,13 +1,15 @@
 <Alloy>
 	<TabGroup>
-		<Tab title="Tab 1" icon="KS_nav_ui.png">
-			<Window title="Tab 1">
-				<Label>I am Window 1</Label>
+		<Tab title="UI Design" icon="KS_nav_ui.png">
+			<Window title="UI Design">
+				<TableView id="tableView_01">					
+				</TableView>
 			</Window>
 		</Tab>
-		<Tab title="Tab 2" icon="KS_nav_views.png">
+		<Tab title="Remote Functions" icon="KS_nav_views.png">
 			<Window title="Tab 2">
-				<Label>I am Window 2</Label>
+				<TableView id="tableView_02">					
+				</TableView>
 			</Window>
 		</Tab>
 	</TabGroup>
